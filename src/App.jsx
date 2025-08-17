@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const API_BASE_URL = 'http://localhost:5000'; // Change this to your deployed backend URL
+const API_BASE_URL = 'https://meeting-summarizer-backend-production.up.railway.app'; // Change this to your deployed backend URL
 
 function App() {
   const [transcript, setTranscript] = useState('');
