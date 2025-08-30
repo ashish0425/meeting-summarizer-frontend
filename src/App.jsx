@@ -12,7 +12,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [emailSending, setEmailSending] = useState(false);
   const [message, setMessage] = useState('');
-// This is async
+// This is async function
   const handleSummarize = async () => {
     if (!transcript.trim() || !prompt.trim()) {
       setMessage('Please provide both transcript and prompt');
